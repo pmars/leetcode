@@ -1,5 +1,9 @@
 package main
 
+import "fmt"
+
+// https://leetcode.cn/problems/strong-password-checker-ii/
+// 这个代码也没有什么好解释的，非常简答的一道题
 func strongPasswordCheckerII(password string) bool {
 	if len(password) < 8 {
 		return false
@@ -21,4 +25,12 @@ func strongPasswordCheckerII(password string) bool {
 		}
 	}
 	return little && big && num && special && disSame
+}
+
+func main() {
+	for _, s := range []string{
+		"abcde",
+	} {
+		fmt.Println(s, strongPasswordCheckerII(s))
+	}
 }

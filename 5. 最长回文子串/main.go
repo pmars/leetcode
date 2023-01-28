@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// https://leetcode.cn/problems/longest-palindromic-substring/
 func longestPalindrome(s string) string {
 	start, end := 0, -1
 	for i := range s {

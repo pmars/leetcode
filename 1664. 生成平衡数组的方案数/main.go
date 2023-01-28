@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// https://leetcode.cn/problems/ways-to-make-a-fair-array/
 /*
 分析：
 	这个题的限制是只删掉一个元素，这也方便了计算了
