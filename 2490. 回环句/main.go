@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// https://leetcode.cn/problems/circular-sentence/
+
 func isCircularSentence(sentence string) bool {
 	var i int
 	var s uint8
